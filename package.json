@@ -1,0 +1,25 @@
+{
+  "name": "basktt",
+  "displayName": "basktt",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "basktt",
+      "aliases": ["basktt", "basktt"],
+      "extensions": [".bask",".bs"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "basktt",
+      "scopeName": "source.basktt",
+      "path": "./syntaxes/basktt.tmLanguage.json"
+    }]
+  }
+}
